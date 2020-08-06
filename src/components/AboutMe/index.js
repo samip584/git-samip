@@ -19,7 +19,7 @@ class Main extends Component {
   render(){
     return(
       <div className="AboutMe-container left">
-        <img className='profile-pic' src = {this.props.UserData.avatar_url}/>
+        <img className='profile-pic' src = {this.props.UserData.avatar_url} alt ='user-img'/>
         <h1 className='User-name'>{this.props.UserData.name}</h1>
         <div className='User-login'>{this.props.UserData.login}</div>
         <span className='User-info'><span className='User-info-num'>{this.props.UserData.followers} </span>followers </span>

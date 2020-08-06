@@ -10,7 +10,7 @@ class Nav extends Component {
         <div className = 'logo-sign left'>Github</div>
         <a className='user-options right' href = {this.props.UserData.html_url}>
           {/* <i className='options fa fa-caret-down right'/> */}
-          <img className='user-img right' src = {this.props.UserData.avatar_url}/>
+          <img className='user-img right' src = {this.props.UserData.avatar_url} alt ='user-img'/>
         </a>
       </div>
     )
